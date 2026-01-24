@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color:aquamarine
+        }
+        /* 标签选择器会选中所有同名标签 */
+
+        .red{
+            color: crimson;
+        }
+        .size{
+            font-size: 50px;
+        }
+        /* 定义类选择器 */
+
+        #red{
+            color:blue;
+        }
+        /* 定义id选择器 */
+
+    </style>
+</head>
+<body>
+    <p>part 1</p>
+    <p>part 2</p>
+
+    <div class="red size">part 3</div>
+    <!-- 使用类选择器 ,使用多个时，类名用空格隔开-->
+
+    <div id="red">part 4</div>
+    <!-- 使用id选择器 ,一般配合js使用，同一页面只能使用一次 -->
+
+
+</body>
+</html>
