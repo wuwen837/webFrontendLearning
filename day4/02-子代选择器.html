@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 选中 div 下 第一个span所在层级内的所有span标签 */
+        /* 如以下只选中了 孙子 */
+        div > span{
+            color:red
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>儿子</span>
+        <p>
+            <span>孙子</span>
+        </p>
+    </div>
+</body>
+</html>
