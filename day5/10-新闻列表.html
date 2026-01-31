@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻列表</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .news{
+            margin: 100px auto;
+            width: 360px;
+            height: 200px;
+            /* background-color: pink; */
+
+        }
+
+        .news .head{
+            height: 34px;
+            background-color: #eeeeee;
+            border: 1px solid #dbdee1;
+            border-left: 0;
+
+        }
+
+        .news .head a{
+            margin-top: -1px;
+            width: 48px;
+            border-top: 3px solid #ff8400;
+            border-right:1px solid #dbdee1;
+            height: 34px;
+            background-color: #fff;
+            display: block;
+
+            text-align: center;
+            line-height: 34px;
+            color: #333;
+            font-size: 14px;
+
+        }
+
+        .news .body{
+            padding: 5px;
+
+        }
+
+        .news .body li a{
+            font-size: 12px;
+            color:#666;
+            line-height: 24px;
+            
+        }
+
+        .news .body li a:hover {
+            color: #ff8400;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="news">
+        <div class="head">
+            <a href="#">新闻</a>
+        </div>
+
+        <div class="body">
+            <ul>
+                <li><a href="#">xingwen 1</a></li>
+                <li><a href="#">xingwen 2</a></li>
+                <li><a href="#">xingwen 3</a></li>
+                <li><a href="#">xingwen 4</a></li>
+                <li><a href="#">xingwen 5</a></li>
+                <li><a href="#">xingwen 6</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
