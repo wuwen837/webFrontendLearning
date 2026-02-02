@@ -1,0 +1,124 @@
+.wrapper{
+    /* 版心 */
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color: #f3f5f7;
+}
+
+/* 头部区域 */
+.header{
+    height: 100px;
+    background-color: #fff;
+}
+.header .wrapper{
+    display: flex;
+    padding-top: 29px;
+}
+
+/* logo区域 */
+.logo h1{
+    width: 195px;
+    height: 41px;
+    background-image: url(../images/logo.png);
+    display: block;
+    font-size: 0;
+}
+
+/* 导航区域 */
+.nav{
+    margin-left: 102px;
+}
+.nav ul{
+    display: flex;
+}
+.nav li{
+    margin-right: 24px;
+}
+.nav a{
+    padding:6px 8px;
+    line-height: 27px;
+    display: block;
+    font-size: 19px;
+}
+/* active表示列选择器，默认选中的a， */
+.nav li .active,
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索区域 */
+.search{
+    width: 412px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+    margin-left: 64px;
+    padding-left: 19px;
+    padding-right: 12px;
+    display: flex;
+}
+.search input{
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+/* ::placeholder选中placeholder的文字样式 */
+.search input::placeholder{
+    color: #999999;
+    font-size: 14px;
+}
+/* 父级是flex，子集宽高可以生效 */
+.search a{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/search.png);
+    align-self: center;
+}
+
+/* 用户区域 */
+.user{
+    margin-left: 32px;
+    margin-top: 4px;
+}
+.user img{
+    /* vertical-align专门处理行内块，行内样式垂直对齐方式  */
+    vertical-align: middle;margin-right: 7px;
+}
+/* .user a{
+    align-self: center;
+    这样也可以垂直居中
+} */
+ .user span{
+    font-size: 16px;
+    color: #666;
+ }
+
+ /* banner区域 */
+ .banner{
+    height: 420px;
+    background-color: #0092cb;
+ }
+ .banner .wrapper{
+    height: 420px;
+    background-image: url(../uploads/banner.png);
+    display: flex;
+    justify-content: space-between;
+ }
+ /* 侧导航 */
+ .banner .left{
+    width: 191px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.42);
+    padding: 3px 20px;
+ }
+ .banner .left a{
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #fff;
+    background: url(../images/right.png) no-repeat right center;
+ }
